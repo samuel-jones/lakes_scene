@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@ body {
 
 #view.sky {
   background: -webkit-gradient(linear, left top, left bottom, from(#98c8f6), color-stop(0.4, #cbebff), to(#f0f9ff));
-  background: linear-gradient(to bottom, #98c8f6 0%,#cbebff 40%,#f0f9ff 100%);
+  background: linear-gradient(to bottom, #cbebff 20%,#cbebff 30%,#cbebff 40%,#cbebff 50%,#cbebff 50%,#2594ff 100%);
 }
 
 .hidden {
@@ -32,7 +32,7 @@ body {
 
 .label {
   position: absolute;
-  padding: 2px;
+  padding: 0.2px;
   text-shadow: -1px -1px #FFF, 0px -1px #FFF, 1px -1px #FFF, -1px 0px #FFF, 1px 0px #FFF, -1px 1px #FFF, 0px 1px #FFF, 1px 1px #FFF;
 }
 

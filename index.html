@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
 <link rel="stylesheet" type="text/css" href="./mobile.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <script defer src="./fontawesome/solid.min.js"></script>
 <script defer src="./fontawesome/fontawesome.min.js"></script>
 <script src="./threejs/three.min.js"></script>
@@ -130,11 +131,14 @@
 <div id="progress"><div id="bar"></div></div>
 
 <!-- header and footer -->
-<div id="header"></div>
-<div id="footer"></div>
+<div id="header"><h1>Lake District National Park</h1></div>
+<div id="footer">Sources: OS Terrain 50 and ESRI imagery. Contains OS data © Crown copyright and database right 2019.
+</div>
 
 <script>
 Q3D.Config.AR.MND = 0.0;
+Q3D.Config.northArrow.visible = true;
+Q3D.Config.northArrow.color = 0xe80000;
 
 var container = document.getElementById("view");
 app.init(container);          // initialize application
